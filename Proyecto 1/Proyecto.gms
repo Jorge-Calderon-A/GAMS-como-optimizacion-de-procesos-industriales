@@ -18,4 +18,3 @@ c3  .. y =l= 8;
 Model ejemplo /all/;
 
 Solve ejemplo using LP maximizing z;
-Display x.l, y.l, z.l;
