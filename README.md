@@ -1,5 +1,5 @@
 # GAMS como optimizacion de procesos industriales
-### Desarrollo de script en GAMS para la optimización de sistemas no lineales.
+### Desarrollo de script en GAMS para la optimización de problemas de programación lineal.
 
 Este proyecto contiene mis primeros pasos en GAMS para optimizar procesos, se demostrara las competencias que tengo en la investigación de operaciones, la aplicación sera en ejecutada en GAMS y llevada a Visual Studio Code con la extensión GAMS de Eunseong Park.
 
