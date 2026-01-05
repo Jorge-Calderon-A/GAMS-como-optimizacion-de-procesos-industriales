@@ -15,7 +15,7 @@ GAMS sirve como programación de sistemas de optimización, es un lenguaje de al
 
 2. Los siguientes datos a analizar son los parameters, son datos asignados a los cuales se le pueden incluir sets y que juntos pueden generar una combinación de datos;
 
-           parameters
+        Parameters
            c(d) "costo por dia"
            cap(d) "capacidad por dia"
            req(tr) "cantidad de mantenciones por cada tren";
