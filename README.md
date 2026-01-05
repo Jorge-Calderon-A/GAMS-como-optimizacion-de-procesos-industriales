@@ -7,7 +7,7 @@ Carpeta nombrada "proyecto 1" es el incio, un PPL clasico desarrollado en GAMS.
 
 GAMS sirve como programación de sistemas de optimización, es un lenguaje de alto nivel con un solver robusto, los detalles basicos que siempre sigo para crear un sistema de excelencia es similar al planteamiento de la modelación de sistemas, es decir, la clasica modelación textual que se tiene en optimización, esto es identificar 5 grandes aspectos del problema:
 
-1. Sets: Los sets que identifico son caracteristicas que me permiten adjuntarlos a ciertos parametros, es decir, cuantas cosas tengo en el problema, si tengo x trenes o x dias, evidentemente se convierte en un  set;
+1. Sets: Los sets que identifico son caracteristicas que me permiten adjuntarlos a ciertos parametros, es decir, cuantas cosas tengo en el problema, si tengo x trenes o  x dias, evidentemente se convierte en un  set;
 
         Sets
            tr "Trenes" /t1*t30/   (cantidad de trenes de 1 a 40, por ello t1*t40, si fuera de 1 a 20, seria t1*t20)
