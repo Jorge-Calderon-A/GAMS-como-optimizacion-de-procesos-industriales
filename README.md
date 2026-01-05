@@ -13,3 +13,11 @@ GAMS sirve como programación de sistemas de optimización, es un lenguaje de al
            tr "Trenes" /t1*t30/   (cantidad de trenes de 1 a 40, por ello t1*t40, si fuera de 1 a 20, seria t1*t20)
            d  "dias"   /1*30/     (cantidad de dias del mes);
 
+2. Los siguientes datos a analizar son los parameters, son datos asignados a los cuales se le pueden incluir sets y que juntos pueden generar una combinación de datos;
+
+           parameters
+           c(d) "costo por dia"
+           cap(d) "capacidad por dia"
+           req(tr) "cantidad de mantenciones por cada tren";
+   
+
