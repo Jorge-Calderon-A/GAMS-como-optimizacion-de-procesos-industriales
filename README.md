@@ -5,22 +5,6 @@ Este proyecto contiene mis primeros pasos en GAMS para optimizar procesos, se de
 
 Carpeta nombrada "proyecto 1" es el incio, un PPL clasico desarrollado en GAMS.
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=epcg0_m7Ir8" target="_blank">
-    <img
-      width="700"
-      alt="Ver video"
-      src="data:image/svg+xml;utf8,
-<svg xmlns='http://www.w3.org/2000/svg' width='1280' height='720' viewBox='0 0 1280 720'>
-  <image href='https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg' width='1280' height='720'/>
-  <circle cx='640' cy='360' r='95' fill='black' fill-opacity='0.55'/>
-  <polygon points='620,310 620,410 715,360' fill='white'/>
-</svg>"
-    />
-  </a>
-</p>
-
-
 [![Mira el video en YouTube](https://img.youtube.com/vi/epcg0_m7Ir8/hqdefault.jpg)](https://www.youtube.com/watch?v=epcg0_m7Ir8)
 
 
