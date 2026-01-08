@@ -7,6 +7,9 @@ Carpeta nombrada "proyecto 1" es el incio, un PPL clasico desarrollado en GAMS.
 
 [![Mira el video en YouTube](https://img.youtube.com/vi/epcg0_m7Ir8/hqdefault.jpg)](https://www.youtube.com/watch?v=epcg0_m7Ir8)
 
+🎬 Video: https://www.youtube.com/watch?v=epcg0_m7Ir8
+
+
 
 
 
