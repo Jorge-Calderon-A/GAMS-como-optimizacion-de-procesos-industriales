@@ -5,6 +5,11 @@ Este proyecto contiene mis primeros pasos en GAMS para optimizar procesos, se de
 
 Carpeta nombrada "proyecto 1" es el incio, un PPL clasico desarrollado en GAMS.
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=epcg0_m7Ir8">
+    <img src="assets/video-thumb.png" alt="Ver video" width="700">
+  </a>
+</p>
 
 [![Mira el video en YouTube](https://img.youtube.com/vi/epcg0_m7Ir8/hqdefault.jpg)](https://www.youtube.com/watch?v=epcg0_m7Ir8)
 
