@@ -5,9 +5,7 @@ Este proyecto contiene mis primeros pasos en GAMS para optimizar procesos, se de
 
 Carpeta nombrada "proyecto 1" es el incio, un PPL clasico desarrollado en GAMS.
 
-[![Comprehensive Markdown Crash Course](https://img.youtube.com/vi/epcg0_m7Ir8/mqdefault.jpg)](https://www.youtube.com/watch?v=epcg0_m7Ir8)
-
-<iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/epcg0_m7Ir8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="1"></iframe>
+[!(https://img.youtube.com/vi/epcg0_m7Ir8/mqdefault.jpg)](https://www.youtube.com/watch?v=epcg0_m7Ir8)]
 
 
 
