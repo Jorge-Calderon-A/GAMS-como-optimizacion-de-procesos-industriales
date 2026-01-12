@@ -12,7 +12,7 @@ GAMS sirve como programación de sistemas de optimización, es un lenguaje de al
 1. Sets: Los sets que identifico son caracteristicas que me permiten adjuntarlos a ciertos parametros, es decir, cuantas cosas tengo en el problema, si tengo x trenes o ciertos dias, evidentemente se convierte en un  set;
 
         Sets
-           tr "Trenes" /t1*t30/   (cantidad de trenes de 1 a 40, por ello t1*t40, si fuera de 1 a 20, seria t1*t20)
+           tr "Trenes" /t1*t30/   (cantidad de trenes de 1 a 30, por ello t1*t30, si fuera de 1 a 20, seria t1*t20)
            d  "dias"   /1*30/     (cantidad de dias del mes);
 
 2. Los siguientes datos a analizar son los parameters, son datos asignados a los cuales se le pueden incluir sets y que juntos pueden generar una combinación de datos;
@@ -22,9 +22,15 @@ GAMS sirve como programación de sistemas de optimización, es un lenguaje de al
            cap(d) "capacidad por dia"
            req(tr) "cantidad de mantenciones por cada tren";
 
-   Notese que en parameters definimos un costo (c) al cual lo llevamos junto a dias (d), es decir, el costo depende netamente de los dias involucrados entre el 1 al 30,
-   un set esta ligado de manera especial a los parametros, muchas veces es complejo comprender estos parametros ya que pueden ser demasiados cuando tenemos un modelamiento
-   muy extenso.
+Notese que en parameters definimos un costo (c) al cual lo llevamos junto a dias (d), es decir, el costo depende netamente de los dias involucrados entre el 1 al 30,
+un set esta ligado de manera especial a los parametros, muchas veces es complejo comprender estos parametros ya que pueden ser demasiados cuando tenemos un modelamiento
+muy extenso.
 
-3. 
+3. Una variable es una cantidad desconocida cuyo valor elige el solver para cumplir las ecuaciones y optimizar un objetivo, si el valor depende de una decision del modelo es porque es una variable, si el valor es un dato conocido es porque es un parametro.
+
+        variables
+           x(tr,d) "¿El tren tr se mantiene el dia d?"
+           z "costo total"
+
+   
 
