@@ -21,5 +21,10 @@ GAMS sirve como programación de sistemas de optimización, es un lenguaje de al
            c(d) "costo por dia"
            cap(d) "capacidad por dia"
            req(tr) "cantidad de mantenciones por cada tren";
-   
+
+   Notese que en parameters definimos un costo (c) al cual lo llevamos junto a dias (d), es decir, el costo depende netamente de los dias involucrados entre el 1 al 30,
+   un set esta ligado de manera especial a los parametros, muchas veces es complejo comprender estos parametros ya que pueden ser demasiados cuando tenemos un modelamiento
+   muy extenso.
+
+3. 
 
