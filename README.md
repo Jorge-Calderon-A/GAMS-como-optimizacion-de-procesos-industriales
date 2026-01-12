@@ -34,6 +34,7 @@ muy extenso.
    
 Las variables pueden ser solo positivas 
 
+
         Positive variables
                 x, z;
 
