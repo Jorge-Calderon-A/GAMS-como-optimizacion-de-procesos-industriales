@@ -31,6 +31,12 @@ muy extenso.
         variables
            x(tr,d) "¿El tren tr se mantiene el dia d?"
            z "costo total"
+   
+Las variables pueden ser solo positivas 
+
+        Positive variables
+                x, z;
+
 
    
 
