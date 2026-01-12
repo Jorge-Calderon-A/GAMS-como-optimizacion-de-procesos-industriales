@@ -55,6 +55,9 @@ muy extenso.
            P.lo("solar")=0;         *El minimo para la planta (P) solar es 0
 
    Por ultimo, se tienen que definir las restricciones para el PPL
+
+           requerido(tr) .. sum(d, x(tr,d)) =e= req(tr);
+
            
 
        
