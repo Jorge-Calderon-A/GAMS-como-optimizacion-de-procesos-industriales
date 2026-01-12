@@ -31,12 +31,15 @@ muy extenso.
         variables
            x(tr,d) "¿El tren tr se mantiene el dia d?"
            z "costo total"
-   
-Las variables pueden ser solo positivas 
 
+   Las variables pueden ser positivas solamente, esto generalmente se utiliza en PPL (Problemas de Programación Lineal) donde las variables no pueden causar efectos
+   negativos, ya que se verian involucrada directamente en nuestra función objetivo.
 
         Positive variables
-                x, z;
+           x;
+   
+   
+
 
 
    
