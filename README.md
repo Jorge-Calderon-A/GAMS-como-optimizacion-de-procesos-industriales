@@ -47,7 +47,18 @@ muy extenso.
 
         Integer variable
            x(tr,d);
-   
+
+   En las variables podemos asignar cotas superiores, inferiores, niveladas y marginales (x.l, x.up, x.lo, x.m)
+
+        Variables
+           P.up("solar")=50;        *El maximo para la planta (P) solar es 50
+           P.lo("solar")=0;         *El minimo para la planta (P) solar es 0
+
+   Por ultimo, se tienen que definir las restricciones para el PPL
+           
+
+       
+        
 
 
 
