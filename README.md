@@ -26,7 +26,7 @@ Notese que en parameters definimos un costo (c) al cual lo llevamos junto a dias
 un set esta ligado de manera especial a los parametros, muchas veces es complejo comprender estos parametros ya que pueden ser demasiados cuando tenemos un modelamiento
 muy extenso.
 
-3. Una variable es una cantidad desconocida cuyo valor elige el solver para cumplir las ecuaciones y optimizar un objetivo, si el valor depende de una decision del modelo es porque es una variable, si el valor es un dato conocido es porque es un parametro.
+3. Una variable es una cantidad desconocida cuyo valor elige el solver para cumplir las ecuaciones y optimizar un objetivo, si el valor depende de una decision del modelo es porque es una variable, si el valor es un dato conocido es porque es un parametro. "variables" puede tomar cualquier numero real.
 
         variables
            x(tr,d) "¿El tren tr se mantiene el dia d?"
@@ -36,8 +36,17 @@ muy extenso.
    negativos, ya que se verian involucrada directamente en nuestra función objetivo.
 
         Positive variables
-           x;
-   
+           x(tr,d);
+
+   La siguiente variable puede tomar un numero binario, es decir, solo puede ser 0 o 1
+
+        Binary variable
+           x(tr,d);
+
+   Por ultimo, esta variable puede tomar numeros enteros, es decir, no pueden ser decimales
+
+        Integer variable
+           x(tr,d);
    
 
 
