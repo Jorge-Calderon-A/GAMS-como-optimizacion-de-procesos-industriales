@@ -56,7 +56,7 @@ muy extenso.
 
    Por ultimo, se tienen que definir las restricciones para el PPL
 
-           requerido(tr) .. sum(d, x(tr,d)) =e= req(tr);
+           requerido(tr) .. sum(d, x(tr,d)) =e= req(tr);    "suma todos los dias que el tren entra a mantenimiento"
 
            
 
