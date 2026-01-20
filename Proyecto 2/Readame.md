@@ -31,7 +31,7 @@ El objetivo es minimizar el costo total del suministro eléctrico
       - Consumo de cada nodo
       - Costos de generación y transporte en cada central y nodo
 
-  - Las variables de decisión son las siguientes:
+ - Las variables de decisión son las siguientes:
  
       - $X1_{a}$
       - $X1_{b}$
