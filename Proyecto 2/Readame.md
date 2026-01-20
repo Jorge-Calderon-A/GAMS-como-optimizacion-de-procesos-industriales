@@ -22,3 +22,12 @@ Costo de generación + transporte (USD/MWh)
 
 El objetivo es minimizar el costo total del suministro eléctrico
 
+### Procedimiento
+
+- Los sets identificados son las centrales y los nodos del sistema
+- Los parametros son:
+  
+      - Capacidad de generación en cada central
+      - Consumo de cada nodo
+      - Costos de generación y transporte en cada central y nodo
+
