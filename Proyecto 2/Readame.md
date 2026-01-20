@@ -33,5 +33,5 @@ El objetivo es minimizar el costo total del suministro eléctrico
 
   - Las variables de decisión son las siguientes:
  
-      - $X1_ab$
+      - $X1_{ab}$
 
