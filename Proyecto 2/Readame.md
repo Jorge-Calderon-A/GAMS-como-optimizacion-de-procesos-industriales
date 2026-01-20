@@ -36,5 +36,5 @@ El objetivo es minimizar el costo total del suministro eléctrico
       - $X1_{a}$
       - $X1_{b}$
       - $X2_{a}$
-      - -X2_{b}$
+      - $X2_{b}$
 
